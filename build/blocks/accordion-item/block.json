@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rs-blockington/accordion-item",
+  "title": "Accordion Item",
+  "category": "rs-blockington-bootstrap-blocks",
+  "description": "Accordion items from Bootstrap.",
+  "textdomain": "rs-blockington",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}

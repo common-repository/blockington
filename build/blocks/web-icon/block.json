@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rs-blockington/web-icon",
+  "title": "Web Icon",
+  "category": "rs-blockington-blockington-blocks",
+  "description": "Components that helps you add icons from popular web icon libraries.",
+  "textdomain": "rs-blockington",
+  "attributes": {
+    "icon_font_size": {
+      "type": "string",
+      "default": "32px"
+    },
+    "icon_color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "icon_class": {
+      "type": "object",
+      "default": {
+        "key": "bi-bootstrap",
+        "name": "Bootstrap",
+        "className": "bi-bootstrap",
+        "library": "bootstrap-icons"
+      }
+    },
+    "icon_url": {
+      "type": "string",
+      "default": ""
+    },
+    "icon_alt": {
+      "type": "string",
+      "default": ""
+    },
+    "icon_target": {
+      "type": "string",
+      "default": "_self"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}

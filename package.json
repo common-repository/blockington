@@ -1,0 +1,44 @@
+{
+  "name": "rs-blockington",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [],
+  "author": "Reel Software",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.3.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.6",
+    "@wordpress/edit-post": "^6.19.0",
+    "@wordpress/plugins": "^4.20.0",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2"
+  },
+  "files": [
+    "build",
+    "public",
+    "includes",
+    "vendor",
+    "index.php",
+    "readme.txt"
+  ]
+}

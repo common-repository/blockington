@@ -1,0 +1,88 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rs-blockington/responsive-row",
+  "title": "Responsive Row",
+  "category": "rs-blockington-bootstrap-blocks",
+  "description": "Groups responsive columns inside a row.",
+  "textdomain": "rs-blockington",
+  "attributes": {
+    "g": {
+      "type": "number",
+      "default": 4
+    },
+    "g_sm": {
+      "type": "number",
+      "default": 4
+    },
+    "g_md": {
+      "type": "number",
+      "default": 4
+    },
+    "g_lg": {
+      "type": "number",
+      "default": 4
+    },
+    "g_xl": {
+      "type": "number",
+      "default": 4
+    },
+    "g_xxl": {
+      "type": "number",
+      "default": 4
+    },
+    "gx": {
+      "type": "number",
+      "default": 4
+    },
+    "gx_sm": {
+      "type": "number",
+      "default": 4
+    },
+    "gx_md": {
+      "type": "number",
+      "default": 4
+    },
+    "gx_lg": {
+      "type": "number",
+      "default": 4
+    },
+    "gx_xl": {
+      "type": "number",
+      "default": 4
+    },
+    "gx_xxl": {
+      "type": "number",
+      "default": 4
+    },
+    "gy": {
+      "type": "number",
+      "default": 4
+    },
+    "gy_sm": {
+      "type": "number",
+      "default": 4
+    },
+    "gy_md": {
+      "type": "number",
+      "default": 4
+    },
+    "gy_lg": {
+      "type": "number",
+      "default": 4
+    },
+    "gy_xl": {
+      "type": "number",
+      "default": 4
+    },
+    "gy_xxl": {
+      "type": "number",
+      "default": 4
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css",
+  "providesContext": {
+    "rs-blockington/block-column-gap": "block_column_gap"
+  }
+}

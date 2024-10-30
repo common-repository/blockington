@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rs-blockington/responsive-column",
+  "title": "Responsive Column",
+  "category": "rs-blockington-bootstrap-blocks",
+  "description": "Defines responsive columns inside a row.",
+  "textdomain": "rs-blockington",
+  "attributes": {
+    "col_sm": {
+      "type": "number",
+      "default": 1
+    },
+    "col_md": {
+      "type": "number",
+      "default": 1
+    },
+    "col_lg": {
+      "type": "number",
+      "default": 1
+    },
+    "col_xl": {
+      "type": "number",
+      "default": 1
+    },
+    "col_xxl": {
+      "type": "number",
+      "default": 1
+    },
+    "offset_sm": {
+      "type": "number",
+      "default": 0
+    },
+    "offset_md": {
+      "type": "number",
+      "default": 0
+    },
+    "offset_lg": {
+      "type": "number",
+      "default": 0
+    },
+    "offset_xl": {
+      "type": "number",
+      "default": 0
+    },
+    "offset_xxl": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

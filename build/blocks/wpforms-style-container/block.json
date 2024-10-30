@@ -1,0 +1,207 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rs-blockington/wpforms-style-container",
+  "title": "WPForms Style Container",
+  "category": "rs-blockington-blockington-blocks",
+  "description": "Styles all the WPForms blocks available inside.",
+  "textdomain": "rs-blockington",
+  "attributes": {
+    "title_font_size": {
+      "type": "string",
+      "default": "26px"
+    },
+    "title_color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "form_background_color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "form_padding": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px"
+      }
+    },
+    "form_border": {
+      "type": "object",
+      "default": {
+        "top": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        },
+        "left": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        },
+        "right": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        },
+        "bottom": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        }
+      }
+    },
+    "form_border_radius": {
+      "type": "object",
+      "default": {
+        "top_left": "0px",
+        "top_right": "0px",
+        "bottom_left": "0px",
+        "bottom_right": "0px"
+      }
+    },
+    "label_font_size": {
+      "type": "string",
+      "default": "16px"
+    },
+    "label_font_weight": {
+      "type": "object",
+      "default": {
+        "key": "bold",
+        "name": "Bold",
+        "style": {
+          "fontWeight": 700
+        }
+      }
+    },
+    "label_color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "input_background_color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "input_padding": {
+      "type": "object",
+      "default": {
+        "top": "6px",
+        "left": "6px",
+        "right": "6px",
+        "bottom": "6px"
+      }
+    },
+    "input_border": {
+      "type": "object",
+      "default": {
+        "top": {
+          "color": "#cccccc",
+          "style": "solid",
+          "width": "1px"
+        },
+        "left": {
+          "color": "#cccccc",
+          "style": "solid",
+          "width": "1px"
+        },
+        "right": {
+          "color": "#cccccc",
+          "style": "solid",
+          "width": "1px"
+        },
+        "bottom": {
+          "color": "#cccccc",
+          "style": "solid",
+          "width": "1px"
+        }
+      }
+    },
+    "input_border_radius": {
+      "type": "object",
+      "default": {
+        "top_left": "2px",
+        "top_right": "2px",
+        "bottom_left": "2px",
+        "bottom_right": "2px"
+      }
+    },
+    "input_font_size": {
+      "type": "string",
+      "default": "16px"
+    },
+    "input_font_weight": {
+      "type": "object",
+      "default": {
+        "key": "regular",
+        "name": "Regular",
+        "style": {
+          "fontWeight": 400
+        }
+      }
+    },
+    "input_color": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "btn_background_color": {
+      "type": "string",
+      "default": "#eeeeee"
+    },
+    "btn_border": {
+      "type": "object",
+      "default": {
+        "top": {
+          "color": "#ddd",
+          "style": "solid",
+          "width": "1px"
+        },
+        "left": {
+          "color": "#ddd",
+          "style": "solid",
+          "width": "1px"
+        },
+        "right": {
+          "color": "#ddd",
+          "style": "solid",
+          "width": "1px"
+        },
+        "bottom": {
+          "color": "#ddd",
+          "style": "solid",
+          "width": "1px"
+        }
+      }
+    },
+    "btn_border_radius": {
+      "type": "object",
+      "default": {
+        "top_left": "0px",
+        "top_right": "0px",
+        "bottom_left": "0px",
+        "bottom_right": "0px"
+      }
+    },
+    "btn_color": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "btn_font_size": {
+      "type": "string",
+      "default": "16px"
+    },
+    "btn_padding": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "15px",
+        "bottom": "10px",
+        "left": "15px"
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./index.css"
+}
